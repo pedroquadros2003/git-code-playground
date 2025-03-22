@@ -79,6 +79,7 @@ if __name__=="__main__":
     Blaze = SavingsAcct(5000, "Blaze")
 
 
+###
     for x in (Dave, Jim, Blaze):
         print(type(x)) #são tipos diferentes, mas têm ligação de herança, por isso podemos usar as operações dos pais com filhos
 
