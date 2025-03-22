@@ -7,7 +7,7 @@ class BankAccount:
         self.name=acctName
         print(f"\nAccount '{self.name}' created.\nBalance = ${self.balance:.2f}")
 
-    #####################Protected:
+    ###########Protected:
 
     def _ViableTransaction(self, amount):
         if self.balance>=amount:
